@@ -22,14 +22,6 @@ $(document).ready(function () {
     } else {
       hourDisplay = i - 12 + "pm";
     }
-    var hourDisplay = "";
-    if (i < 12) {
-      hourDisplay = i + "am";
-    } else if (i === 12) {
-      hourDisplay = i + "pm";
-    } else {
-      hourDisplay = i - 12 + "pm";
-    }
 
     var rowEl = $("<div>").addClass("row time-block");
     var hourEl = $("<div>")
@@ -54,6 +46,7 @@ $(document).ready(function () {
         localStorage.setItem(logTime, logText);
         alert("Saved!");
       });
+
     var icon = $("<i>").addClass("fas fa-save");
     $(".container").append(
       rowEl.append(hourEl, textAreaEl, button.append(icon))
