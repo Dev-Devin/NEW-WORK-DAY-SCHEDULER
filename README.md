@@ -2,7 +2,7 @@
 
 https://jaxpi.github.io/work-day-scheduler/
 
-![](./img/Screen%20Shot%202023-02-16%20at%205.43.45%20PM.png)
+![](./img/Screen%20Shot%202023-02-17%20at%2010.04.32%20AM.png)
 
 ## Description
 
